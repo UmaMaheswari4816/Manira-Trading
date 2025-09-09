@@ -27,6 +27,30 @@
         "current_price": 100.0,
         "unrealized_pnl": -3616.5000000000005,
         "margin_used": 8764.56563529673
+      },
+      "OPT_NIFTY_250911_24800CE_BUY_181404": {
+        "contract_type": "OptionsContract",
+        "contract_data": {
+          "symbol": "NIFTYOPT",
+          "underlying": "NIFTY",
+          "strike_price": 24800.0,
+          "option_type": "CALL",
+          "expiry_date": "2025-09-11T15:30:00",
+          "lot_size": 50,
+          "tick_size": 0.05,
+          "premium": 175.29131270593462,
+          "contract_id": "NIFTY25091124800CE",
+          "days_to_expiry": 1,
+          "time_to_expiry": 0.0027397260273972603,
+          "is_expired": false
+        },
+        "position_type": "BUY",
+        "quantity": 1,
+        "entry_price": 177.58,
+        "entry_time": "2025-09-09T18:14:04.893163",
+        "current_price": 177.58,
+        "unrealized_pnl": 0.0,
+        "margin_used": 8764.56563529673
       }
     },
     "fo_trade_history": [
@@ -40,9 +64,20 @@
         "price": 172.33,
         "margin_used": 8764.56563529673,
         "trade_type": "OPEN"
+      },
+      {
+        "timestamp": "2025-09-09T18:14:04.893460",
+        "position_id": "OPT_NIFTY_250911_24800CE_BUY_181404",
+        "symbol": "NIFTY",
+        "contract_type": "OptionsContract",
+        "position_type": "BUY",
+        "quantity": 1,
+        "price": 177.58,
+        "margin_used": 8764.56563529673,
+        "trade_type": "OPEN"
       }
     ],
-    "fo_margin_used": 8764.56563529673,
+    "fo_margin_used": 17529.13127059346,
     "total_pnl": 0.0,
     "day_pnl": 0.0
   },
@@ -51,5 +86,5 @@
     "risk_tolerance": "medium",
     "auto_square_off": true
   },
-  "last_updated": "2025-09-09T18:05:14.327875"
+  "last_updated": "2025-09-09T18:14:05.123058"
 }

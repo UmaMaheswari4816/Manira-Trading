@@ -280,12 +280,12 @@ class TradingSimulatorApp:
     def __init__(self):
         self.auth = UserAuth()
         self.setup_session_state()
-        self.market_data = MarketDataProvider()
+        self.market_data = MarketDataProvider(use_real_data=True)  # ← Force real data
         self.portfolio = PortfolioManager()
         self.strategy_engine = StrategyEngine()
         self.backtester = Backtester()
         self.trading_manager = TradingModeManager()
-        self.fo_market_data = FOMarketDataProvider()
+        self.fo_market_data = FOMarketDataProvider(use_real_data=True)  # ← Force real F&O data
         self.fo_portfolio = FOPortfolioManager()
         self.fo_strategy_builder = FOStrategyBuilder()
         
