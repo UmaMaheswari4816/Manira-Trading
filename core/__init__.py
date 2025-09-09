@@ -1,0 +1,1 @@
+# Core trading simulator package

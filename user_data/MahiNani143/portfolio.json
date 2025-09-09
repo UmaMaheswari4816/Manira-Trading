@@ -1,0 +1,55 @@
+{
+  "portfolio": {
+    "cash": 1000000.0,
+    "positions": {},
+    "trade_history": [],
+    "fo_positions": {
+      "OPT_NIFTY_250911_24800CE_BUY_161447": {
+        "contract_type": "OptionsContract",
+        "contract_data": {
+          "symbol": "UNKOPT",
+          "underlying": "",
+          "strike_price": 0,
+          "option_type": "CALL",
+          "expiry_date": "2025-09-09T16:39:21.986999",
+          "lot_size": 50,
+          "tick_size": 0.05,
+          "premium": 0,
+          "contract_id": "2509090CE",
+          "days_to_expiry": -1,
+          "time_to_expiry": -0.0027397260273972603,
+          "is_expired": true
+        },
+        "position_type": "BUY",
+        "quantity": 1,
+        "entry_price": 172.33,
+        "entry_time": "2025-09-09T16:14:47.677984",
+        "current_price": 100.0,
+        "unrealized_pnl": -3616.5000000000005,
+        "margin_used": 8764.56563529673
+      }
+    },
+    "fo_trade_history": [
+      {
+        "timestamp": "2025-09-09T16:14:47.678180",
+        "position_id": "OPT_NIFTY_250911_24800CE_BUY_161447",
+        "symbol": "NIFTY",
+        "contract_type": "OptionsContract",
+        "position_type": "BUY",
+        "quantity": 1,
+        "price": 172.33,
+        "margin_used": 8764.56563529673,
+        "trade_type": "OPEN"
+      }
+    ],
+    "fo_margin_used": 8764.56563529673,
+    "total_pnl": 0.0,
+    "day_pnl": 0.0
+  },
+  "settings": {
+    "trading_mode": "virtual",
+    "risk_tolerance": "medium",
+    "auto_square_off": true
+  },
+  "last_updated": "2025-09-09T17:50:53.901403"
+}
